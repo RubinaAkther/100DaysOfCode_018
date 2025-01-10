@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#100045, #3a1679);
+}
+
+.app {
+  width: 90%;
+  max-width: 500px;
+  background-color: #fff;
+  margin: 100px auto 0px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(101, 7, 189);
+  text-shadow: 1px 1px 3px rgba(80, 1, 177, 0.75);
+  border-bottom: 1px solid #33333335;
+  padding-bottom: 20px;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #4700b0;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #fff0e6ab;
+  color: #000;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+  background-color: #2d016e;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+#next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct {
+  background-color: #9aeabc;
+}
+
+.incorrect {
+  background-color: #ff9393;
+}
